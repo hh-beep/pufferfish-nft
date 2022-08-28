@@ -1,0 +1,45 @@
+$p-black: #222831;
+$p-dgrey: #808080;
+$p-lgrey: #BFBFBF;
+$p-white: #F2F2F2;
+
+
+
+@mixin telaCell {
+  @media ( max-width: 767px ) {
+    @content;
+  }
+}
+
+
+
+.swiper-button {
+  &-prev, &-next {
+    color: $p-dgrey !important;
+    background-color: transparent;
+
+    &:hover, &:active {
+      color: $p-white !important;
+    }
+
+    @include telaCell {
+      color: $p-dgrey  !important;
+      background-color: $p-white;
+
+      &:hover, &:active {
+        color: $p-black  !important;
+      }
+    }
+  }
+}
+
+
+.swiper-pagination-bullet {
+  background-color: $p-dgrey !important;
+  opacity: 0.7 !important;
+
+  &-active {
+    background-color: $p-white !important;
+    opacity: 1 !important;
+  }
+}

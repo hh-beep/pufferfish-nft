@@ -1,0 +1,39 @@
+.HoverCursor {
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+
+.seeMore {
+  color: #bfbfbf;
+
+  &:hover {
+    color: #f2f2f2;
+  }
+}
+
+
+.SecondaryIcon {
+  transition: 300ms all;
+
+  &:hover {
+    background-color: #bfbfbf;
+    transform: scale(1.05);
+  
+    img.HoverCursor {
+      background-color: #bfbfbf;
+    }
+  }
+}
+
+
+.PrimaryIcon:hover {
+  background-color: #808080;
+  border-color: #808080;
+  transform: scale(1.1);
+  box-shadow: 10px 10px #bfbfbf;
+}
+
+
+
+/*  PrimaryIcon SecondaryIcon */
