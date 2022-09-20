@@ -2,7 +2,9 @@
 
 <br>
 
-
+<p align="center">
+  <img src="https://github.com/hh-beep/pufferfish-nft/blob/master/src/Images/LogoREADME.png?raw=true" width="400" height="400" style="text-align: center"/>
+</p>
 
 <br>
 
