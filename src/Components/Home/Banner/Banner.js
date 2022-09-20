@@ -3,21 +3,30 @@ import BannerTittle from "./BannerTittle/BannerTittle";
 import BannerLogo from "./BannerLogo/BannerLogo";
 
 /*  Style  */
-import BannerStyle from "./BannerStyle"
+import Banner_Style from "./Banner_Style";
+
+
+
+
+
+const style = Banner_Style(); 
+
+
 
 
 
 const Banner = () => {
-
-  const style = BannerStyle() 
-
   return (
     <section className={  style.Banner  }>
       <section className={  style.BannerContainer  }>
 
+
+
         <BannerTittle />
 
         <BannerLogo />
+
+
 
       </section>
     </section>

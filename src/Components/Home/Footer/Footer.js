@@ -1,25 +1,29 @@
 /* Style */
-import FooterStyle from "./FooterStyle"
+import Footer_Style from "./Footer_Style"
 
 /* Components */
-import Text from "./Text/Text"
-import List from "./List/List"
+import FooterTittle from "./FooterTittle/FooterTittle"
+import FooterList from "./FooterList/FooterList"
 
 
 
 
 const Footer = () => {
 
-  const style = FooterStyle();
+  const style = Footer_Style();
 
 
   return (
     <section className={  style.Footer  }>
       <section className={  style.FooterContainer  }>
 
-      <Text />
 
-      <List />
+
+        <FooterTittle />
+
+        <FooterList />
+
+
 
       </section>
     </section>

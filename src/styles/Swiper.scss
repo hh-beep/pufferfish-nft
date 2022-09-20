@@ -24,7 +24,7 @@ $p-white: #F2F2F2;
 
     @include telaCell {
       color: $p-dgrey  !important;
-      background-color: $p-white;
+      background-color: transparent;
 
       &:hover, &:active {
         color: $p-black  !important;

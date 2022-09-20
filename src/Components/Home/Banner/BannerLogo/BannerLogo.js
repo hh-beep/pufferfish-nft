@@ -1,24 +1,32 @@
-/* Image and Style */
-import Logo from "../../../../Images/Logo.svg"
-import BannerLogoStyle from "./BannerLogoStyle";
+/* Image */
+import Logo from "../../../../Images/Logo.svg";
+
+/* Style */
+import BannerLogo_Style from "./BannerLogo_Style";
+
+
+
+
+
+const style = BannerLogo_Style();
+
 
 
 
 
 const BannerLogo = () => {
-
-  const style = BannerLogoStyle();
-
   return (
     <figure className={  style.Container  }>
       
       
+
       <img 
         alt="Pufferfish Main Logo (A pufferfish)"
         src={  Logo  }
         className={  style.ContainerImage  }
       />
     
+
     
     </figure>
   )

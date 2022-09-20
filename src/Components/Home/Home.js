@@ -1,7 +1,7 @@
 /* Components */
 import Banner from "./Banner/Banner"
-import Carrousel from "./Carrousel/Carrousel"
-import New from "./New/New"
+import CarrouselArea from "./CarrouselArea/CarrouselArea"
+import Slogan from "./Slogan/Slogan"
 import Footer from "./Footer/Footer"
 
 
@@ -11,8 +11,8 @@ const Home = () => {
     <section className="overflow-x-hidden">    
     
       <Banner />
-      <Carrousel />
-      <New />
+      <CarrouselArea />
+      <Slogan />
       <Footer />
 
     </section>

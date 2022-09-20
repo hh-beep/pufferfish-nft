@@ -4,6 +4,9 @@
 }
 
 
+
+
+
 .seeMore {
   color: #bfbfbf;
 
@@ -13,7 +16,11 @@
 }
 
 
-.SecondaryIcon {
+
+
+
+
+.FooterItemIcon {
   transition: 300ms all;
 
   &:hover {
@@ -26,14 +33,3 @@
   }
 }
 
-
-.PrimaryIcon:hover {
-  background-color: #808080;
-  border-color: #808080;
-  transform: scale(1.1);
-  box-shadow: 10px 10px #bfbfbf;
-}
-
-
-
-/*  PrimaryIcon SecondaryIcon */
