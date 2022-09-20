@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pufferfish-nft/static/css/main.577d8ddd.css",
+    "main.js": "/pufferfish-nft/static/js/main.d2da2d9c.js",
+    "static/js/787.4aa579b0.chunk.js": "/pufferfish-nft/static/js/787.4aa579b0.chunk.js",
+    "static/media/Bottle_0.png": "/pufferfish-nft/static/media/Bottle_0.b3d016f6421818518629.png",
+    "static/media/shirt_0.png": "/pufferfish-nft/static/media/shirt_0.4f6b13300db13550f98b.png",
+    "static/media/Mug_0.png": "/pufferfish-nft/static/media/Mug_0.6ab47debe1b835d5ee88.png",
+    "static/media/OpenSea.svg": "/pufferfish-nft/static/media/OpenSea.56acc13891a059e58e85d3ccba2c6b0a.svg",
+    "static/media/Logo.svg": "/pufferfish-nft/static/media/Logo.538fd43012fcde37b8d27c72e443b0e2.svg",
+    "index.html": "/pufferfish-nft/index.html",
+    "static/media/github.svg": "/pufferfish-nft/static/media/github.4ec5bbccdc5ae97802269a93141e07ae.svg",
+    "static/media/twitter.svg": "/pufferfish-nft/static/media/twitter.e4bd6dc790ee4dba815d8a9823d5514f.svg",
+    "static/media/instagram.svg": "/pufferfish-nft/static/media/instagram.e6280bd73550db2093b834051805d6bb.svg",
+    "main.577d8ddd.css.map": "/pufferfish-nft/static/css/main.577d8ddd.css.map",
+    "main.d2da2d9c.js.map": "/pufferfish-nft/static/js/main.d2da2d9c.js.map",
+    "787.4aa579b0.chunk.js.map": "/pufferfish-nft/static/js/787.4aa579b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.577d8ddd.css",
+    "static/js/main.d2da2d9c.js"
+  ]
+}
