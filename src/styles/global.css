@@ -5,10 +5,13 @@
   background-color: #222831;
   font-family: 'Inter', sans-serif;
 
-  /*no blue border on mobile :)*/
+  /* Remove blue border on mobile */
   -webkit-tap-highlight-color: transparent;
   outline: none;
 }
+
+
+
 
 
 @tailwind base;

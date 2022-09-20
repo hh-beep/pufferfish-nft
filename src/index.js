@@ -22,7 +22,7 @@ import initializeFirebase from './api/Firebase';
 
 
 
-
+// Initialize font and firebase
 LoadFont();
 initializeFirebase();
 

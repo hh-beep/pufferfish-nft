@@ -13,8 +13,16 @@ import Items from "./Components/Items/Item";
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={  <Home />  }/>
-      <Route path="/Items" element={  <Items />  }/>
+
+
+
+      <Route 
+        path="/" 
+        element={  <Home />  }
+      />
+
+
+
     </Routes>
   );
 }
