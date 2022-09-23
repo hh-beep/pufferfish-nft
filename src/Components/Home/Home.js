@@ -6,12 +6,14 @@ import Footer from "./Footer/Footer"
 
 
 
-const Home = () => {
+const Home = ({  CarrouselInfos  }) => {
   return (
     <section className="overflow-x-hidden">    
     
       <Banner />
-      <CarrouselArea />
+      <CarrouselArea 
+        infos={  CarrouselInfos !== undefined ? Object.values(  CarrouselInfos  ) : []  }
+      />
       <Slogan />
       <Footer />
 

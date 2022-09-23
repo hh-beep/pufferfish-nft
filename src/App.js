@@ -1,3 +1,10 @@
+/* React */
+import { 
+  useEffect, 
+  useState
+} from "react";
+
+/* Router Dom */
 import { 
   Routes, 
   Route,
@@ -5,12 +12,34 @@ import {
 
 /* Components */
 import Home from "./Components/Home/Home";
-import Items from "./Components/Items/Item";
+import Item from "./Components/Item/Item";
+
+/* Firebase */
+import {
+  getDatabase,
+  ref, 
+  onValue
+} from "firebase/database"
+
+
 
 
 
 
 const App = () => {
+  
+  const [dbValue, setDbValue] = useState(undefined)
+  
+  
+  useEffect(() => {
+    const dbRef = ref(  getDatabase(), "/"  )
+
+    onValue(  dbRef, snap => {
+      setDbValue(  snap.val()  )
+    })
+  }, [])
+  
+  
   return (
     <Routes>
 
@@ -18,7 +47,16 @@ const App = () => {
 
       <Route 
         path="/" 
-        element={  <Home />  }
+        element={
+          <Home 
+            CarrouselInfos={  dbValue !== undefined ? dbValue.Carrousel : {}  }
+          />  
+        }
+      />
+
+      <Route 
+        path="/Item"
+        element={  <Item />  }
       />
 
 

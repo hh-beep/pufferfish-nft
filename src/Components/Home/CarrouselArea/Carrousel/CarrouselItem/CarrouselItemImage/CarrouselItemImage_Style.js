@@ -1,9 +1,9 @@
 const sm = {
-  container: " hidden ",
-  containerImage: "",
+  container: " flex h-3/5 ",
+  containerImage: " h-full ",
 }
 const md = {
-  container: " md:flex md:w-7/12 ",
+  container: " md:w-7/12 p-8 md:h-auto ",
   containerImage: "",
 }
 const lg = {
@@ -26,7 +26,7 @@ function CarrouselItemImage_Style() {
 
 
     containerImage: 
-      " bg-p-white " +
+      " bg-p-white rounded-lg " +
         sm.containerImage +
         md.containerImage + 
         lg.containerImage ,

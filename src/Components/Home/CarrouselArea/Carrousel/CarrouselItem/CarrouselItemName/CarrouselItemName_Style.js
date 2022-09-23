@@ -1,12 +1,12 @@
 const sm = {
   container: " h-2/5 w-full ",
-  tittle: " text-5xl ",
-  collection: " text-xl ",
+  tittle: " text-5xl text-center ",
+  collection: " text-xl text-center ",
 }
 const md = {
   container: " md:w-5/6 ",
-  tittle: "  ",
-  collection: "",
+  tittle: " md:text-start ",
+  collection: " md:text-start ",
 }
 const lg = {
   container: "",
@@ -17,7 +17,7 @@ const lg = {
 
 
 
-function CarrouselItemTittle_Style() {
+function CarrouselItemName_Style() {
   return {
     container:  
       " bg-p-white flex justify-around flex-col " +
@@ -40,4 +40,4 @@ function CarrouselItemTittle_Style() {
   }
 }
 
-export default CarrouselItemTittle_Style;
+export default CarrouselItemName_Style;

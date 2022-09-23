@@ -1,24 +1,24 @@
 /* Style */
-import CarrouselItemTittle_Style from "./CarrouselItemTittle_Style";
+import CarrouselItemName_Style from "./CarrouselItemName_Style";
 
 
 
 
 
-const style = CarrouselItemTittle_Style();
+const style = CarrouselItemName_Style();
 
 
 
 
 
-const CarrouselItemTittle = ({  tittle, collection  }) => {
+const CarrouselItemName = ({  name, collection  }) => {
   return (
     <section className={  style.container  }>
 
 
 
       <h1 className={  style.tittle  }>
-        {  tittle  }
+        {  name  }
       </h1>
       
       <p className={  style.collection  }>
@@ -31,4 +31,4 @@ const CarrouselItemTittle = ({  tittle, collection  }) => {
   )
 } 
 
-export default CarrouselItemTittle; 
+export default CarrouselItemName; 

@@ -1,12 +1,12 @@
 const sm = {
   section: " h-2/5 w-full ",
-  description: " text-lg ",
-  randomText: " text-lg ",
+  description: " text-lg text-center ",
+  randomText: " text-lg text-center ",
 }
 const md = {
   section: " md:w-5/6 ",
-  description: "",
-  randomText: "",
+  description: " md:text-start ",
+  randomText: " md:text-start ",
 }
 const lg = {
   section: "",
@@ -22,19 +22,17 @@ function CarrouselItemText_Style() {
     section: 
       " bg-p-white flex justify-center flex-col " +
         sm.section + 
-        md.section + 
-        lg.section ,
+        md.section ,
 
     description: 
       " bg-p-white " +
         sm.description + 
-        md.description + 
-        lg.description ,
+        md.description , 
+
     randomText: 
       " bg-p-white pt-4 " + 
         sm.randomText + 
-        md.randomText + 
-        lg.randomText ,
+        md.randomText ,
   }
 }
 

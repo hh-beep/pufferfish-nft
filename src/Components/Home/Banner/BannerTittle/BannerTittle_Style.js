@@ -1,10 +1,10 @@
 const sm = {
-  Container: " w-full order-last ",
-  ContainerTittle: " text-7xl ",
+  Container: " w-11/12 order-last ",
+  ContainerTittle: " text-5xl ",
 }
 const md = {
   Container: " md:w-2/5 md:order-1 ",
-  ContainerTittle: " md:text-6xl ",
+  ContainerTittle: "",
 }
 
 
@@ -14,7 +14,7 @@ const md = {
 function BannerTittle_Style() {
   return {
     Container: 
-      " flex justify-around items-center " +
+      " flex justify-around items-center lg:text-6xl " +
         md.Container +
         sm.Container,
 

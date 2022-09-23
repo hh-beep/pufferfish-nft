@@ -18,7 +18,7 @@ const BannerTittle = () => {
 
 
       <h1 className={  style.ContainerTittle  }>
-        _PufferFish_
+        _PufferFish_nft
       </h1>
     
     

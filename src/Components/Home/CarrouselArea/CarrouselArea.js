@@ -13,13 +13,12 @@ import Carrousel_Infos from './Carrousel_Infos';
 
 
 const style = CarrouselArea_Style();
-const itemsInfos = Carrousel_Infos();
 
 
 
 
 
-const CarrouselArea = () => {
+const CarrouselArea = ({  infos  }) => {
   return (
     <section className={  style.Container  }>
 
@@ -30,11 +29,11 @@ const CarrouselArea = () => {
         </section>
 
         <Carrousel 
-          itemsInfos={  itemsInfos  } 
+          itemsInfos={  infos  } 
         />
 
-        <Link to="/Items">
-          <h1 className={  style.seeMore + " HoverCursor seeMore "  }>See more Items</h1>
+        <Link to="/Best">
+          <h1 className={  style.seeMore + " HoverCursor seeMore "  }>Wanna see the best items from each collection?</h1>
         </Link>
 
 

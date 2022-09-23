@@ -33,9 +33,11 @@ const Carrousel = ({  itemsInfos  }) => {
 
 
 
-      {  itemsInfos.map(  item => {
+      {  itemsInfos.map(  (  item, key  ) => {
         return (
-          <SwiperSlide key={  item.key  }>
+          <SwiperSlide 
+            key={  key  }
+          >
 
 
             <CarrouselItem 

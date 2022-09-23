@@ -14,7 +14,8 @@ function FooterListItem_Style() {
 
 
 
-    ContainerImage: " bg-p-white p-4 ",
+    ContainerImage: 
+      " bg-p-white p-4 ",
   }
 }
 
