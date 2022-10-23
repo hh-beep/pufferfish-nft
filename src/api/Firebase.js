@@ -4,14 +4,14 @@ import { getDatabase } from "firebase/database";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAX5exX3BosOQ-Qb8KqKBBmTb7khzjzIJs",
-  authDomain: "pufferfish-nft.firebaseapp.com",
-  databaseURL: "https://pufferfish-nft-default-rtdb.firebaseio.com",
-  projectId: "pufferfish-nft",
-  storageBucket: "pufferfish-nft.appspot.com",
-  messagingSenderId: "347100824010",
-  appId: "1:347100824010:web:5cac847e74350511d30f33",
-  measurementId: "G-SL7HQW428S"
+  apiKey: "AIzaSyA2Ozp7SGyxP1Fo6hOaUwMVTH0RzFqXayo",
+  authDomain: "pufferfish-nft-b9123.firebaseapp.com",
+  databaseURL: "https://pufferfish-nft-b9123-default-rtdb.firebaseio.com",
+  projectId: "pufferfish-nft-b9123",
+  storageBucket: "pufferfish-nft-b9123.appspot.com",
+  messagingSenderId: "789331231894",
+  appId: "1:789331231894:web:f7c2f257736af0b217eeb7",
+  measurementId: "G-585Y2HL0G9"
 };
 
 

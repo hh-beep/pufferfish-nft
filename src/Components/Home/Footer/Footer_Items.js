@@ -2,7 +2,7 @@
 import GitHub from "../../../Images/Icons/github.svg"
 import Instagram from "../../../Images/Icons/instagram.svg"
 import Twitter from "../../../Images/Icons/twitter.svg"
-import OpenSea from "../../../Images/Icons/OpenSea.svg"
+import OpenSea from "../../../Images/Icons/opensea.svg"
 
 
 

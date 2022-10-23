@@ -5,10 +5,11 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "p-black": "#222831",
-      "p-dgrey": "#808080",
-      "p-lgrey": "#BFBFBF",
-      "p-white": "#F2F2F2",
+      "black": "#222831",
+      "dgrey": "#5A6473",
+      "mgrey": "#BFBFBF",
+      "lgrey": "#D9D9D9",
+      "white": "#F2F2F2",
     },
   },
   plugins: [],

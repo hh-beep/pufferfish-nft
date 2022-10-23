@@ -22,9 +22,9 @@ const Slogan = () => {
 
 
 
-      <SloganImage />
-
       <SloganText />
+
+      <SloganImage />
 
 
 

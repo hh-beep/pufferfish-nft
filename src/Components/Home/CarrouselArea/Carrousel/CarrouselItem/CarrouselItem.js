@@ -6,8 +6,7 @@ import CarrouselItem_Style from "./CarrouselItem_Style";
 
 /* Components */
 import CarrouselItemImage from "./CarrouselItemImage/CarrouselItemImage";
-import CarrouselItemName from "./CarrouselItemName/CarrouselItemName";
-import CarrouselItemText from "./CarrouselItemText/CarrouselItemText";
+import CarrouselItemCollection from "./CarrouselItemCollection/CarrouselItemCollection";
 
 
 
@@ -22,11 +21,11 @@ const style = CarrouselItem_Style();
 const CarrouselItem = ({  item  }) => {
   return (
     <Link
-      to="/Item"
+      to="/Collection"
       state={{
-        itemInfos: item,
+        collectionName: item.name,
       }}
-      className={  style.container + "CarrouselCard HoverCursor "   }
+      className={  style.Container + "CarrouselCard HoverCursor "   }
     >
       
 
@@ -34,21 +33,10 @@ const CarrouselItem = ({  item  }) => {
       <CarrouselItemImage 
         image={  item.imageURL  }
       />
-
-      <section className={  style.containerTextarea  }>
         
-
-        <CarrouselItemName 
-          name={  item.name  }
-          collection={  item.collection  }
-        />
-        <CarrouselItemText 
-          description={  item.description  }
-          randomText={  item.randomText  }
-        />
-
-
-      </section>
+      <CarrouselItemCollection 
+        collection={  item.collection  }
+      />
 
 
 

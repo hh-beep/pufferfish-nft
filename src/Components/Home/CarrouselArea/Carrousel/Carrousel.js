@@ -1,6 +1,13 @@
 /* Slider */
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper";
+import { 
+  Swiper, 
+  SwiperSlide 
+} from "swiper/react";
+import { 
+  Autoplay,
+  Navigation, 
+  Pagination, 
+} from "swiper";
 
 /* Style */
 import Carrousel_Style from "./Carrousel_Style";
@@ -22,13 +29,19 @@ const Carrousel = ({  itemsInfos  }) => {
   return (
     <Swiper
       modules={[  Navigation, Pagination, Autoplay  ]}
-      navigation={  true  }
+      className={" mySwiper " + style.Swiper}
       pagination={{  clickable: true  }}
       autoplay={{  delay: '7500'  }}
+      navigation={  true  }
       loop={  true  }
-      slidesPerView={  1  }
-      spaceBetween={ 50 }
-      className={" mySwiper " + style.Swiper}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 2,
+        }
+      }}
     >
 
 
@@ -36,6 +49,7 @@ const Carrousel = ({  itemsInfos  }) => {
       {  itemsInfos.map(  (  item, key  ) => {
         return (
           <SwiperSlide 
+            className={  style.SwiperSlide  }
             key={  key  }
           >
 

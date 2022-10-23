@@ -8,12 +8,12 @@ function Slogan_Style() {
 		container: 
       " w-screen h-screen flex justify-around items-center ",
 
-      
+
 
 		containerSection: 
       " w-4/5 h-3/5 flex items-center " +
-        sm + md,
-
+        sm + 
+        md ,
 	}
 }
 

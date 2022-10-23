@@ -6,7 +6,6 @@ import {  Link  } from "react-router-dom"
 
 /* Components */
 import Carrousel from "./Carrousel/Carrousel";
-import Carrousel_Infos from './Carrousel_Infos';
 
 
 
@@ -23,17 +22,16 @@ const CarrouselArea = ({  infos  }) => {
     <section className={  style.Container  }>
 
 
-
         <section>
-          <h1 className={  style.tittle  }>Some of ours nfts</h1>
+          <h2 className={  style.tittle  }>Our nft's collections</h2>
         </section>
 
         <Carrousel 
           itemsInfos={  infos  } 
         />
 
-        <Link to="/Best">
-          <h1 className={  style.seeMore + " HoverCursor seeMore "  }>Wanna see the best items from each collection?</h1>
+        <Link to="/BestItems">
+          <h2 className={  style.seeMore + " HoverCursor seeMore "  }>Wanna see the best items from each collection?</h2>
         </Link>
 
 

@@ -10,7 +10,7 @@ const FooterTittle = () => {
   
   return (
     <section className={  style.section  }>
-      <h1 className={  style.sectionText  }>Our main social media</h1>
+      <h1 className={  style.sectionText  }>Other plataforms with more content</h1>
     </section>
   )
 }

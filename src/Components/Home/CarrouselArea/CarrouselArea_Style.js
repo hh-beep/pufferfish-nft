@@ -5,7 +5,7 @@ function CarrouselArea_Style() {
 
 
     tittle: 
-      " md:text-4xl text-3xl font-bold text-p-white ",
+      " text-4xl font-bold text-white ",
 
     
     seeMore: 

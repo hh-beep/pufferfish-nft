@@ -1,10 +1,18 @@
+$white: #F2F2F2;
+$lgrey: #D9D9D9;
+$mgrey: #BFBFBF;
+$dgrey: #5A6473;
+$black: #222831;
+
+
+
+
+
 @mixin telaCell {
   @media ( max-width: 767px ) {
     @content;
   }
 }
-
-
 
 
 
@@ -14,31 +22,20 @@
 }
 
 .seeMore {
-  color: #bfbfbf;
+  color: $mgrey;
 
   &:hover {
-    color: #f2f2f2;
+    color: $white;
   }
 }
-
-
 
 
 
 .CarrouselCard:hover {
   transform: scale(1.02);
-  box-shadow: 20px 20px #bfbfbf;
-
-  @include telaCell() {
-    box-shadow: 0px 0px transparent;
-    transform: scale(1);
-    background-color: #bfbfbf;
-
-    * {  background-color: #bfbfbf  }
-  }
+  box-shadow: 20px 20px $dgrey;
+  border-color: $white;
 }
-
-
 
 
 
@@ -47,18 +44,32 @@
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 10px 10px #bfbfbf;
+    box-shadow: 10px 10px $dgrey;
+    border-color: $white;
 
 
     @include telaCell() {
       box-shadow: 0px 0px transparent;
-      background-color: #bfbfbf;
+      background-color: $dgrey;
 
 
       img.HoverCursor {
-        background-color: #bfbfbf;
+        background-color: $dgrey;
       }
     }
   }
 }
 
+
+
+.button {
+  &:hover {
+    background-color: $dgrey;
+    transform: scale(1.05);
+
+    * {
+      background-color: #5A6473;
+      transform: scale(1.05);
+    }
+  }
+}

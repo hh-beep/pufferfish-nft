@@ -5,7 +5,7 @@ function FooterTittle_Style() {
 
 
     sectionText: 
-      " text-p-white font-bold text-center text-5xl md:text-4xl  ",
+      " text-white font-bold text-center text-4xl  ",
 
   }
 }

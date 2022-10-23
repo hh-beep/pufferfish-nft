@@ -13,6 +13,8 @@ import {
 /* Components */
 import Home from "./Components/Home/Home";
 import Item from "./Components/Item/Item";
+import BestItems from "./Components/BestItems/BestItems";
+import Collection from "./Components/Collection/Collection";
 
 /* Firebase */
 import {
@@ -57,6 +59,24 @@ const App = () => {
       <Route 
         path="/Item"
         element={  <Item />  }
+      />
+
+      <Route 
+        path="/BestItems"
+        element={
+          <BestItems 
+            database={  dbValue !== undefined ? dbValue.Best : {}  }
+          />
+        }
+      />
+
+      <Route 
+        path="/Collection"
+        element={
+          <Collection 
+            database={  dbValue !== undefined ? dbValue.Items : {}  }
+          />
+        }
       />
 
 

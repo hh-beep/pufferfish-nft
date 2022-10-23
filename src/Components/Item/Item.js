@@ -5,9 +5,9 @@ import { useLocation } from "react-router-dom";
 import Item_Style from "./Item_Style";
 
 /* Components */
-import ItemImage from "./ItemImage/ItemImage";
-import ItemName from "./ItemName/ItemName";
-import ItemText from "./ItemText/ItemText";
+import Image from "./Image/Image";
+import Button from "./Button/Button";
+import TextArea from "./TextArea/TextArea";
 
 
 
@@ -21,7 +21,8 @@ const style = Item_Style();
 
 const Item = () => {
 
-  const {  itemInfos  } = useLocation().state; 
+
+  const {  item  } = useLocation().state; 
 
 
 
@@ -31,17 +32,22 @@ const Item = () => {
 
 
 
-        {/*<ItemImage 
-          image={  itemInfos.imageURL  }
+        <Image 
+          image={  item.imageURL  }
         />
 
-        <section className={  style.ContainerSectionTextarea  }>
-          <ItemName />
+        <section className={  style.ContainerSectionBox  }>
+          <TextArea 
+            name={  item.name  }
+            collection={  item.collection  }
+            randomText={  item.randomText  }
+            description={  item.description  }
+          />
 
-          <ItemText />
+          <Button 
+            opensea={  item.opensea  }
+          />
         </section>
-
-         Button */}
 
 
       </section>

@@ -8,14 +8,14 @@ const md = " md:w-2/5 lg:w-1/6 md:h-2/6 "
 function FooterListItem_Style() {
   return {
     Container: 
-      " flex justify-around bg-p-white rounded-md " +
+      " flex justify-around rounded-md border-4 rounded-lg border-mgrey " +
         sm +
         md ,
 
 
 
     ContainerImage: 
-      " bg-p-white p-4 ",
+      " p-4 ",
   }
 }
 

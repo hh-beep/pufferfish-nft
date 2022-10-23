@@ -4,14 +4,16 @@ import {  createRoot  } from 'react-dom/client';
 import {  HashRouter  } from 'react-router-dom';
 
 /* Styles */
-import 'swiper/css';
-import 'swiper/css/autoplay';
 import './styles/global.css';
 import './styles/Swiper.scss';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 import './styles/HoverCursor.scss';
 import './styles/specialStyles.scss';
+
+/* Swiper Style */
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 /* Components */
 import App from './App';

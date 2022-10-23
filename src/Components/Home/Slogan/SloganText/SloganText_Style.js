@@ -1,28 +1,39 @@
 const sm = {
-  section: "  w-full h-2/3 items-center ",
-  sectionText: " text-5xl text-center tracking-normal ",
+  Container: "  w-full h-full items-center ",
+  ContainerTittle: " text-center ",
+  ContainerText: " text-center tracking-normal ",
 }
 const md = {
-  section: " md:h-2/5 md:w-2/5 items-start ",
-  sectionText: " md:text-4xl md:text-start ",
+  Container: " md:w-2/5 md:items-start ",
+  ContainerTittle: " md:text-start ",
+  ContainerText: " md:text-start ",
 }
+
+
 
 
 
 function SloganText_Style() {
 	return {
 
-	section: 
+	Container: 
     " flex justify-around flex-col " + 
-      sm.section +
-      md.section ,
+      sm.Container +
+      md.Container ,
 
 
-  sectionText: 
-    " text-p-white font-bold my-12 " +
-      sm.sectionText +
-      md.sectionText ,
 
+  ContainerTittle: 
+    " font-bold text-white text-4xl " +
+      sm.ContainerTittle +
+      md.ContainerTittle ,
+
+
+
+  ContainerText: 
+    " text-mgrey my-12 text-2xl " +
+      sm.ContainerText +
+      md.ContainerText ,
 	}
 }
 
