@@ -23,8 +23,8 @@ const AboutUsText = () => {
       <h2 className={  style.ContainerTittle  }>A little bit about us</h2>
 
       <p className={  style.ContainerText  }>
-        We are a digital art company that creates utility nft’s. 
-        The peoples that buy our nft win a copy of that item in their home.  
+        We are a digital art company that creates and sells utility nft’s. 
+        The peoples that buy our nft win a copy of that item in their home.
         <Link to="/AboutUs" className={  style.ContainerText + "linkText"  }>
           To know a little bit more about us, visit our about page
         </Link>

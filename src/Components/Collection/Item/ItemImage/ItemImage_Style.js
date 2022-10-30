@@ -1,10 +1,3 @@
-const sm = ""
-const md = ""
-
-
-
-
-
 function ItemImage_Style() {
   return {
     Container: 

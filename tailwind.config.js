@@ -10,7 +10,7 @@ module.exports = {
       "mgrey": "#BFBFBF",
       "lgrey": "#D9D9D9",
       "white": "#F2F2F2",
-    },
+    }
   },
   plugins: [],
 }

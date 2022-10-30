@@ -1,5 +1,6 @@
 const sm = " w-80 h-80 "
 const md = " md:w-96 md:h-96  "
+const lg = " lg:w-[28rem] lg:h-[28rem] shrink-0 "
 
 
 
@@ -8,13 +9,14 @@ const md = " md:w-96 md:h-96  "
 function Image_Style() {
 	return {
 		Figure: 
-			" lg:h-full h-3/6 flex justify-around items-center ",
+			" lg:h-full lg:w-1/2 h-3/6 flex justify-around items-center shrink-0 ",
 
 
 		FigureImage: 
-			" w-full h-full rounded-lg " +
+			" rounded-lg " +
         sm +
-        md ,
+        md +
+        lg ,
 	}
 }
 

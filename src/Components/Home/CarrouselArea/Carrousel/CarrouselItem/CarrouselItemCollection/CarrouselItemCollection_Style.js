@@ -4,7 +4,7 @@ const sm = {
 }
 const md = {
   container: " md:w-5/6 ",
-  tittle: "",
+  tittle: " md:text-3xl ",
 }
 
 

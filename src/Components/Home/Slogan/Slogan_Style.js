@@ -11,7 +11,7 @@ function Slogan_Style() {
 
 
 		containerSection: 
-      " w-4/5 h-3/5 flex items-center " +
+      " w-5/6 h-3/5 flex items-center " +
         sm + 
         md ,
 	}

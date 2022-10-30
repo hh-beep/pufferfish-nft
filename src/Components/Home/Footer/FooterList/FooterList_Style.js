@@ -13,7 +13,7 @@ function FooterList_Style() {
         md ,
 
     ContainerSection: 
-      " h-full md:h-4/5 flex justify-around flex-col md:flex-row items-center flex-wrap ",
+      " h-full md:h-4/5 flex justify-between flex-col md:flex-row items-center flex-wrap ",
   }
 }
 

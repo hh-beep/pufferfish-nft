@@ -25,7 +25,7 @@ const style = Collection_Style();
 
 
 const Collection = ({  database  }) => {
-
+  
   const {  collectionName  } = useLocation().state;
   const [collection, setCollection] = useState([])
 

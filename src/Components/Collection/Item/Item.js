@@ -1,6 +1,3 @@
-/* react */
-import { useEffect, useState } from "react";
-
 /* Router dom */
 import {  Link  } from "react-router-dom";
 

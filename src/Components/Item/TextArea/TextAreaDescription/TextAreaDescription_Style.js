@@ -1,7 +1,7 @@
 function TextAreaDescription_Style() {
   return {
     Container: 
-      " h-1/2 flex flex-col justify-around ",
+      " h-1/3 flex flex-col justify-around ",
 
 
 

@@ -1,4 +1,4 @@
-const sm = " w-5/6 h-1/6 "
+const sm = " w-5/6 h-1/5 "
 const md = " md:w-2/5 lg:w-1/6 md:h-2/6 "
 
 

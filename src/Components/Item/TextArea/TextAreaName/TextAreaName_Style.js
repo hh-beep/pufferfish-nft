@@ -1,7 +1,7 @@
 function TextAreaName_Style() {
   return {
     Container:
-      " h-1/2 flex justify-around flex-col ",
+      " h-1/3 flex justify-around flex-col ",
       
       
 
