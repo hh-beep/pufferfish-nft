@@ -11,7 +11,7 @@ const md = {
 
 
 
-function WhereImage_Style() {
+function WelcomeImage_Style() {
   return {
     Container: 
       " justify-around items-center " +
@@ -21,10 +21,10 @@ function WhereImage_Style() {
 
 
     ContainerImage: 
-      "  " +
+      "" +
         sm.ContainerImage +
         md.ContainerImage ,
   }
 }
 
-export default WhereImage_Style;
+export default WelcomeImage_Style;

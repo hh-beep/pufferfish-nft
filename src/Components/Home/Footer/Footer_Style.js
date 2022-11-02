@@ -5,7 +5,7 @@ function Footer_Style() {
     
 
     FooterContainer: 
-      " h-5/6 w-10/12 flex justify-between items-center flex-col  ",
+      " h-5/6 w-11/12 flex justify-between items-center flex-col  ",
 
   }
 }

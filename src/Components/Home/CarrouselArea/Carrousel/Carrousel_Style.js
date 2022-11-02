@@ -1,5 +1,5 @@
 const sm = " h-5/6 w-full "
-const md = " md:h-4/6 md:w-5/6 "
+const md = " md:h-4/6 md:w-11/12 "
 
 
 

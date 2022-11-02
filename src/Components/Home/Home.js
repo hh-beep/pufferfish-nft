@@ -1,3 +1,6 @@
+/* React */
+import { useEffect } from "react";
+
 /* Components */
 import Banner from "./Banner/Banner";
 import AboutUs from "./AboutUs/AboutUs";
@@ -8,6 +11,13 @@ import Footer from "./Footer/Footer";
 
 
 const Home = ({  CarrouselInfos  }) => {
+  
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
+  
   return (
     <section className="overflow-x-hidden">    
     

@@ -3,7 +3,7 @@ const sm = {
   ContainerSectionBox: " h-full w-full justify-around items-center ",
 }
 const md = {
-  ContainerSection: " md:justify-between md:flex-row md:w-5/6 ",
+  ContainerSection: " md:justify-between md:flex-row md:w-11/12 ",
   ContainerSectionBox: " md:w-3/5 md:items-start md:justify-between ",
 }
 const lg = " lg:w-2/5 "

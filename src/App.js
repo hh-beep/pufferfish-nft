@@ -13,6 +13,7 @@ import {
 /* Components */
 import Home from "./Components/Home/Home";
 import Item from "./Components/Item/Item";
+import Gift from "./Components/Gift/Gift";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import BestItems from "./Components/BestItems/BestItems";
 import Collection from "./Components/Collection/Collection";
@@ -60,6 +61,11 @@ const App = () => {
       <Route 
         path="/Item"
         element={  <Item />  }
+      />
+
+      <Route 
+        path="/Gift"
+        element={  <Gift />  }
       />
 
       <Route 

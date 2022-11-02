@@ -12,7 +12,7 @@ const lg = " lg:w-2/5 "
 
 
 
-function We_Style() {
+function About_Style() {
   return {
     Container: 
       " h-screen w-screen flex items-center justify-around ",
@@ -34,4 +34,4 @@ function We_Style() {
   }
 }
 
-export default We_Style
+export default About_Style;

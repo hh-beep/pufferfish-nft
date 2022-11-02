@@ -4,7 +4,7 @@ const sm = {
 }
 const md = {
   Container: " md:flex md:w-2/5 md:h-full",
-  ContainerImage: "  ",
+  ContainerImage: " md:w-5/6 lg:w-full ",
 }
 
 

@@ -1,3 +1,6 @@
+/* React */
+import {  useEffect  } from "react"
+
 /* Components */
 import We from "./We/We";
 import Where from "./Where/Where";
@@ -18,6 +21,12 @@ const style = AboutUs_Style();
 
 
 const AboutUs = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
   return (
     <section className={  style.Container  }>
 
