@@ -14,6 +14,7 @@ import {
 import Home from "./Components/Home/Home";
 import Item from "./Components/Item/Item";
 import Gift from "./Components/Gift/Gift";
+import Notion from "./Components/Notion/Notion";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import BestItems from "./Components/BestItems/BestItems";
 import Collection from "./Components/Collection/Collection";
@@ -24,7 +25,6 @@ import {
   ref, 
   onValue
 } from "firebase/database"
-
 
 
 
@@ -91,6 +91,14 @@ const App = () => {
         }
       />
 
+
+
+        <Route 
+          path="/Notion"
+          element={
+            <Notion />
+          }
+        />
 
 
     </Routes>
